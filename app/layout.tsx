@@ -36,7 +36,7 @@ export default function RootLayout({
   return (
     <html suppressHydrationWarning lang="en">
       <head />
-      <body
+      <body 
         className={clsx(
           "min-h-screen bg-background font-sans antialiased",
           fontSans.variable
@@ -46,7 +46,7 @@ export default function RootLayout({
       <div className="bg-transparent">
         <Navbar />
       </div>
-          <div className="relative flex flex-col h-screen">
+          <div className="relative flex flex-col h-screen no-scroll">
             <main className="container mx-auto max-w-7xl pt-2 flex-grow">
               {children}
             </main>

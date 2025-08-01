@@ -3,7 +3,7 @@ export default function LocationIcon() {
     <svg
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 24 24"
-      className="size-8 fill-pink-500"
+      className="size-5 fill-pink-500"
     >
       <path
         fillRule="evenodd"
