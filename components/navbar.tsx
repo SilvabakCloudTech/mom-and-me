@@ -9,7 +9,7 @@ import bongekapic from "@/public/bongekapic.jpg";
 export const Navbar = () => {
 
   return (
-    <HeroUINavbar className="bg-pink-200 flex justify-between items-end rounded-lg" >
+    <HeroUINavbar className="bg-pink-200 flex justify-between items-end" >
       <NavbarContent className="flex flex-row justify-start">
       <Image className="rounded-full object-contain" width={40} height={40} src={bongekapic} alt="profile picture"/>
           <p className="text-stone-500 font-serif font-semibold md:text-2xl">MOM & ME CLINIC</p>

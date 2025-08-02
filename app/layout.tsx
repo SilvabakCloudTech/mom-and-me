@@ -43,11 +43,11 @@ export default function RootLayout({
         )}
       >
         <Providers themeProps={{ attribute: "class", defaultTheme: "light" }}>
-      <div className="bg-transparent">
-        <Navbar />
-      </div>
-          <div className="relative flex flex-col h-screen no-scroll">
-            <main className="container mx-auto max-w-7xl pt-2 flex-grow">
+          <div className="w-screen h-screen bg-cover bg-no-repeat" style={{ backgroundImage: `url(/bg1.png)` }}>
+            <div className="fixed top-0 left-0 w-full z-50">
+            <Navbar />
+            </div>
+            <main className="container mx-auto max-w-7xl flex-grow">
               {children}
             </main>
           </div>
