@@ -14,7 +14,7 @@ export const Navbar = () => {
       <Image className="rounded-full object-contain" width={40} height={40} src={bongekapic} alt="profile picture"/>
           <p className="text-stone-500 font-serif font-semibold md:text-2xl">MOM & ME CLINIC</p>
       </NavbarContent>
-      <NavbarContent className="flex justify-end items-center font-mono md:font-medium md:text-md">
+      <NavbarContent className="flex justify-end items-center font-mono md:font-medium md:text-md lg:text-xl">
         <p>Practice No. 1217364</p>
           <p>SANC No. 15895451</p>
       </NavbarContent>
